@@ -3,7 +3,12 @@ import Accordian from "./components/accordian";
 import LoadMoreData from "./components/load-more-data";
 import RandomColor from "./components/randomColorChnager";
 import StarRating from "./components/starRating";
-import ImageSlider from "./ImageSlider";
+import TreeView from "./components/Tree-view";
+import ImageSlider from "./components/ImageSlider";
+import menus from "./components/Tree-view/data";
+import QRCodeGenerator from "./components/QR-Generator";
+import LightDarkMode from "./components/light-dark-mode";
+
 
 function App() {
   return (
@@ -21,7 +26,14 @@ function App() {
         limit={"10"}
       /> */}
       {/* load-more-data component */}
-      <LoadMoreData />
+      {/* <LoadMoreData /> */}
+      {/* Tree View Component */}
+      {/* <TreeView menus={menus} /> */}
+      {/* QR-Code-Generator component */}
+      {/* <QRCodeGenerator/> */}
+      {/* Light-Dark-Mode component */}
+      <LightDarkMode/>
+      
       
     </div>
   );
